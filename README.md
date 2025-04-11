@@ -4,7 +4,7 @@ This project is a modified version of the xv6 operating system. It includes a cu
 
 ## 🐚 Project: `momo.c` – A Minimalist Shell
 
-Located in: `user/momo.c`
+Located in: `user/momo.c` [View momo.c source code] (https://github.com/abimengesha/momo-shell/blob/main/user/momo.c)
 
 `momo.c` is a lightweight command-line shell that supports core Unix-like functionality inside the xv6 OS. It was created to deepen understanding of system calls, process control, and user-space execution in a constrained OS environment.
 
