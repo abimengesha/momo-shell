@@ -1,0 +1,4 @@
+-ffreestanding
+-fno-common
+-nostdlib 
+-I.

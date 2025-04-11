@@ -1,0 +1,80 @@
+Command: ls
+New system calls: 
+*access
+*arch_prctl
+*brk
+*close
+*execve
+*exit_group
+*fstat
+*futex
+*getdents64
+*getrandom
+*ioctl
+*mmap
+*mprotect
+*munmap
+*openat
+*prctl
+*pread64
+*prlimit64
+*read
+*rseq
+*set_robust_list
+*set_tid_address
+*statfs
+*write
+
+
+Command: cat /etc/passwd
+New system calls:
+*fadvise64
+
+
+Command: cp /etc/passwd copy_of_passwd
+New system calls:
+* copy_file_range
+* geteuid
+* lseek
+* newfstatat
+* uname
+
+Command: mkdir newdir
+New system calls: 
+*mkdir
+
+
+
+Command: rmdir newdir
+New system calls:
+*rmdir
+
+Overlapping System Calls with MacOS:
+* access
+* brk
+* close
+* execve
+* fstat
+* ioctl
+* mmap
+* mprotect
+* munmap
+* read
+* write
+* lseek
+* mkdir
+* rmdir
+
+Linux-Specific System Calls:
+* arch_prctl
+* exit_group
+* fadvise64
+* getdents64
+* prctl
+* rseq
+* set_robust_list
+* copy_file_range
+* prlimit64
+* getrandom
+* openat
+* uname
